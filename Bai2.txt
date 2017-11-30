@@ -1,0 +1,157 @@
+A. Gán giá trị cho một biến thực hiện bằng dấu "="
+
+1. x = y
+<!DOCTYPE>
+<html>
+<body>
+
+<?PHP
+$x = 10
+echo $x;
+?>
+
+</Body>
+</html>
+
+2. x + = y or x = x + y
+<!DOCTYPE>
+<html>
+<Body>
+
+<?PHP
+$x = 5;
+$x + = 5;
+echo $x;
+?>
+
+</Body>
+<html>
+
+3. x - = y or x = x- y
+<!DOCTYPE>
+<html>
+<Body>
+
+<?PHP
+$x = 6;
+$x - = 4;
+echo $x;
+?>
+</Body>
+</html>
+
+4. x * = y or x = x * y
+<!DOCTYPE>
+<html>
+<Body>
+
+<?PHP
+$x = 9;
+$x * = 8;
+echo $x;
+?>
+
+</Body>
+</html>
+
+5. x / = y or x = x / y
+<!DOCTYPE>
+<html>
+<Body>
+
+<?PHP
+$x = 9;
+$x / = 3;
+echo $x;
+?>
+
+</Body>
+</html>
+
+6.x % = y or x = x % y
+<!DOCTYPE>
+<html>
+<Body>
+
+<?PHP
+$x = 10;
+$x % = 8;
+echo $x;
+?>
+
+</Body>
+</html>
+
+B .Thực hiện các phép tính
+
+- Phép cộng
+<!DOCTYPE html>
+<html>
+<body>
+
+<?PHP
+$x = 5;
+$y = 6;
+echo $x + $y;
+?>
+
+</Body>
+</html>
+
+- Phép trừ
+<!DOCTYPE>
+<html>
+<Body>
+
+<?PHP
+$x = 6;
+$y = 5;
+echo $x - $y;
+?>
+
+</Body>
+</html>
+
+- Phép Nhân
+<!DOCTYPE>
+<html>
+<Body>
+
+<?PHP
+$x = 5;
+$y = 6;
+echo $x * $y;
+?>
+
+</Body>
+</html>
+
+- Phép Chia
+<!DOCTYPE>
+<html>
+<Body>
+
+<?PHP
+$x = 9;
+$y = 3;
+echo $x / $y;
+?>
+
+</Body>
+</html>
+
+- Phần trăm
+<!DOCTYPE>
+<html>
+<Body>
+
+<?PHP
+$x = 10;
+$y = 6;
+echo $x % $y;
+?>
+
+</Body>
+</html>
+
+C.Phép So sánh
